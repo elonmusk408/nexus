@@ -1,0 +1,26 @@
+start 
+ cd /bin 
+   ./nexus run 
+   
+   ..............
+launch:     locolhost:8081   , 
+  username:   admin
+  passwd:  admin123 or get passwod from /nexus/sono-typework/admin.password 
+  
+  2.Go to repository and select create repository -->maven2(hosted) -->craete urs repository
+   
+   
+   ..................................................
+   
+   In jenkins: 
+   1.install "nexus platform" plugin 
+   2.manage jenkins --> configure system -->sonatype nexus--> 
+   here add
+   server id/displayname:  localnexus3
+   server url: http://localhost:8081
+   
+   3. go to job 
+   build --> nexus manager publisher --> 
+    here provie required details
+   
+   
