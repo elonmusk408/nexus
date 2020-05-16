@@ -12,7 +12,8 @@ launch:     locolhost:8081   ,
    
    ..................................................
    
-   In jenkins: 
+   configure with jenkins: 
+   
    1.install "nexus platform" plugin 
    2.manage jenkins --> configure system -->sonatype nexus--> 
    here add
