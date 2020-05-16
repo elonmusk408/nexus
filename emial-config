@@ -1,0 +1,48 @@
+Details: 
+SMTP username: Your Gmail address.
+SMTP password: Your Gmail password.
+SMTP server address: smtp.gmail.com.
+Gmail SMTP port (TLS): 587.
+SMTP port (SSL): 465.
+............................
+
+IN jenkins: 
+ manage jenkins->configure system -->
+         smtp server : 
+         
+         
+         
+         
+    .................
+    
+    Git
+    Maven
+    Docker
+    Ansible
+    Jenkins: 
+          JObs -- free style job
+                  Linked jobs
+                  
+                  POll scm
+                  Build TRigger  -->  for automatic jobs
+                  
+                  Master --slave config--> 
+                  
+                 Role based plugin --> for users restrictions 
+                 Build pipeline   --> (To view linked jobs in pipeline mode)
+                 Nexus platform plugin -- for nexus
+                 EMail:
+                 MAVEN
+                 Git
+                 
+                 ...........
+                 SOnar qube 
+                 Sonar scanner
+                 Pipe line (jenkins file) declarative/scripted
+                 
+                 
+                
+                
+               
+                  
+         
