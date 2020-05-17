@@ -1,0 +1,22 @@
+SonarQube:-
+
+SonarQube is an open source platform used for continuous analysis of your source code quality by performing
+analysis of your code to detect duplications, bugs, security vulnerabilities and code smells.
+
+1.Why should Integrating SonarQube and Jenkins Useful: 
+
+When you are working on a project and if are doing SonarQube analysis sometimes then you can do that easily but
+if the scenario changes to that SonarQube analysis will be performed after completion of each and every task or say 
+deployment then the manual action would become hard to rely on. So, to overcome the problem of manual analysis with it, 
+...........................................
+Install sonar qube:
+1. downlaod sonar qube
+2.cd bin 
+  ./sonar start 
+ 
+ launch: 
+   <ipaddres:9000>
+   
+3. install sonar scanner: 
+   wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-3.2.0.1227-linux.zip
+
